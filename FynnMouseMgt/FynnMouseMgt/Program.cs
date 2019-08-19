@@ -20,7 +20,7 @@ namespace FynnMouseMgt
         {
 
             // Schnell machen:
-            HotKeyManager.RegisterHotKey(Keys.A, KeyModifiers.Alt);
+            HotKeyManager.RegisterHotKey(Keys.A, KeyModifiers.None);
             HotKeyManager.HotKeyPressed += new EventHandler<HotKeyEventArgs>(HotKeyManager_HotKeyPressed);
 
             // Langsam machen:
